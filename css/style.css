@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.block_header{
+    padding-left: 105px;
+    padding-right: 105px;
+}
+.menu_button{
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #939699;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+}
+.cart{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.button_cart{
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+    padding: 10px 20px 10px 48px;
+    cursor: pointer;
+    height: 40px;
+}
+.button_cart_img{
+    background:url(../img/Cart.svg) no-repeat 20px center;
+}
+.button--primary {
+    background-color: #4592FF;
+    color: #FFFFFF;
+    border:none;
+}
+.best{
+    padding: 5px 12px;
+    cursor: pointer;
+}
+.best--primary{
+    font-family: 'Lato', sans-serif;
+    color:#FFFFFF;
+    font-size: 12px;
+    line-height: 15px;
+    border:none;
+    background:#3DC47E;
+    border-radius: 3px;
+}
+.green {
+    font-family: 'Lato', sans-serif;
+    color:#FFFFFF;
+    font-size: 12px;
+    line-height: 15px;
+    background: #3DC47E;
+    border-radius: 3px;
+    padding: 5px 12px;
+}
+.block_sweater{
+    background: #B4D1E0 url(../img/sweater.png) no-repeat left 416px center;
+}
+.section__title{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    max-width:458px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    color: #262D33;
+}
+
+.product_title_white {
+  color:#FFFFFF;
+}
+
+.product_text_white {
+    color:#FFFFFF;
+    opacity: 0.85;
+}
+.product_text_pink {
+    color: #FFC4C9;
+}
+.section_sweater {
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+.section__text {
+    max-width: 335px;
+    margin-bottom: 40px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5157;
+}
+.button_shop{
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+    padding: 10px 25px 10px 20px;
+    cursor: pointer;
+    height: 40px;
+}
+.button_shop::before{
+    content: "$319";
+    padding: 10px;
+}
+.poplin_top .button_shop::before{
+    content: "$129";
+    padding: 10px;
+}
+.sweater {
+    max-width: 946px;
+    margin: auto;
+}
+.sweater::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/Arrow-left.svg);
+    margin: 170px -100px ;
+    opacity: 0.5;
+    width: 60px;
+    height: 60px;
+    cursor:pointer;
+}
+.sweater::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/Arrow-right.svg);
+    margin: -160px 830px;
+    opacity: 0.5;
+    width: 60px;
+    height: 60px;
+    cursor:pointer;
+}
+.section_products {
+    margin-top: 50px;
+}
+.products {
+    max-width: 1160px;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.product_title {
+    max-width: 222px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.section_title_smaller {
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 418px;
+    max-height: 100px;
+}
+.product_text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 176px;
+    margin-bottom: 25px;
+}
+.product_metka {
+    max-width: 563px;
+    height: 370px;
+    padding: 60px 296px 145px 46px;
+    border-radius: 10px;
+}
+.product_metka_wide {
+  max-width: 860px;
+  height: 370px;
+  border-radius: 10px;
+  padding: 35px 395px 60px 46px;
+}
+.product_metka_small {
+    max-width: 272px;
+    height: 370px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.fashion-month {
+    background-image: url(../img/fashionmonth.png);
+}
+.style_sun {
+    background-image: url(../img/sun-style.png);
+}
+.poplin_top {
+    background: #CCD5E6 url(../img/sad_women.png) no-repeat left 270px center;
+    margin-top: 30px;
+    width: 100%;
+}
+.button_view_img{
+    background: url(../img/Arrow-product.svg) no-repeat 78px center;
+}
+.button_view {
+    background-color: #4592FF;
+    color: #FFFFFF;
+    border:none;
+    border-radius: 20px;
+    padding: 10px 45px 10px 20px;
+}
+.micro_women{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: -250px 710px;
+    max-width: 50px;
+    max-height: 50px;
+}
+.jenshina {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-spacing: 0;
+    margin-bottom: -4px;
+}
+.micro_women img:first-child {
+    background: #FFFFFF;
+}
+.printed_shit {
+    background: #FF4F52 url(../img/glasses_octopus.png) no-repeat left 54px center;
+    width: 100%;
+    padding: 35px 36px 210px 26px;
+}
+.printed_shit .product_text {
+    margin-bottom: 15px;
+}
+.imposter_price {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.view {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #262D33;
+}
+.section_new_arrival {
+    margin-top: 60px;
+    max-width: 1140px;
+}
+
+.product_card .best {
+    content:"";
+    position: absolute;
+    margin-left: -160px;
+    margin-top: -20px;
+}
+.product_card .section__text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+.product_card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 70px;
+    max-width: 263px;
+    height: 370px;
+}
+.product_price {
+    color:#262D33;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.product_card .product_title {
+    max-width: 213px;
+    font-size: 16px;
+    line-height: 25px;
+}
