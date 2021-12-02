@@ -162,6 +162,9 @@
     margin: auto;
     flex-wrap: wrap;
 }
+.poiner{
+    cursor:pointer;
+}
 .product_title {
     max-width: 222px;
     font-family: Roboto Slab;
@@ -272,7 +275,13 @@
     margin-top: 60px;
     max-width: 1140px;
 }
-
+.new_arrival_title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
 .product_card .best {
     content:"";
     position: absolute;
@@ -304,4 +313,78 @@
     max-width: 213px;
     font-size: 16px;
     line-height: 25px;
+}
+footer{
+    background: #8F79D4;
+    padding: 45px 113px 35px 113px;
+}
+.footer-top{
+    display: flex;
+}
+.footer_button{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color:#FFFFFF;
+    padding-right: 40px;
+}
+.footer_button:last-child {
+    padding-right:0;
+    margin-right: 230px;
+}
+.follow{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color:#E7D9FF;
+    margin-right: 30px;
+}
+.socials{ 
+    display: flex;
+}
+.footer_top{
+    display: flex;
+    align-items: center;
+    border-bottom:#D8BFFF 1px solid;
+    padding-bottom: 44px;
+}
+.social_img1{
+    margin-right: 21px;
+}
+.social_img2{
+    margin-right: 17px;
+}
+.copyright{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color:#E7D9FF;
+    padding-left: 115px;
+}
+.cards{
+    padding-top: 36px;
+}
+.card{
+    padding-right: 25px;
+}
+.footer_bottom{
+    display: flex;
+    align-items: center;
+}
+.back_to_top .footer_button{
+    margin-left: 683px;
+    padding-top: 35px;
+    margin-right: 0px;
+    padding-right: 0;
+}
+.arrow_up{
+    padding-top: 35px;
+    padding-left: 15px;
 }
