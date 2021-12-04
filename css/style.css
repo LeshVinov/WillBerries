@@ -394,16 +394,36 @@ footer{
     padding-left: 15px;
 }
 
-@media (max-width: 1200px) {
-    .cards {
+
+@media (max-width: 1370px) {
+    .copyright {
+        display: none;
+    }
+    .footer_top {
         display: flex;
-        max-
+        justify-content: center;
     }
 }
 
-@media (max-width: 1410) {
-    * {
-        width: 95%;
+@media (max-width: 1340px) {
+    .cards {
+        display: flex;
+        align-items: center;
+    }
+    .visa_card {
+        max-height: 19px;
+    }
+}
+
+@media (max-width: 1330px) {
+    .footer_bottom {
+        justify-content: center;
+    }
+    .footer_back_to_top {
+        display: none;
+    }
+    .arrow_up {
+        display: none;
     }
 }
 
@@ -440,6 +460,15 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .contacts {
+        display: none;
+    }
+}
+
+@media (max-width: 1105px) {
+    .follow {
+        display: none;
     }
 }
 
@@ -501,6 +530,9 @@ footer{
     .menu_button_2 {
         display: none;
     }
+    .blog {
+        display: none;
+    }
 }
 
 @media (max-width: 680px) {
@@ -526,6 +558,9 @@ footer{
     .product_metka_wide {
         padding: 35px 325px 60px 46px;
     }
+    .faq {
+        display: none;
+    }
 }
 
 @media (max-width: 615px) {
@@ -534,6 +569,12 @@ footer{
     }
     .product_metka_wide {
         padding: 35px 230px 60px 46px;
+    }
+}
+
+@media (max-width: 580px) {
+    .careers {
+        display: none;
     }
 }
 
@@ -549,13 +590,13 @@ footer{
     .sweater::before {
         position: absolute;
         margin: 0;
-        top: 67%;
+        top: 47%;
         left: 25%;
     }
     .sweater::after {
         position: absolute;
         margin: 0;
-        top: 67%;
+        top: 47%;
         right: 25%;
     }
     .product_metka {
@@ -573,11 +614,20 @@ footer{
     .poplin_top {
         background: #CCD5E6 url(../img/sad_women.png) no-repeat left 200px center;
     }
+    .sweater::after {
+        position: absolute;
+        margin: 0;
+        top: 47%;
+        right: 25%;
+    }
     .sweater::before {
         position: absolute;
         margin: 0;
-        top: 58%;
+        top: 47%;
         right: 10%;
+    }
+    .abutus {
+        display: none;
     }
 }
 
@@ -588,13 +638,13 @@ footer{
     .sweater::before {
         position: absolute;
         margin: 0;
-        top: 58%;
+        top: 40%;
         left: 10%;
     }
     .sweater::after {
         position: absolute;
         margin: 0;
-        top: 58%;
+        top: 40%;
         right: 10%;
     }
     .micro_women {
