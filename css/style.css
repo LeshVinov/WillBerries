@@ -31,6 +31,11 @@
     font-weight: 900;
     font-size: 14px;
     line-height: 20px;
+    transition: all .3s;
+}
+.menu_button:hover {
+    color: black;
+    filter: drop-shadow(0 0 20px black);
 }
 .cart{
     padding-top: 15px;
@@ -50,6 +55,10 @@
     background-color: #4592FF;
     color: #FFFFFF;
     border:none;
+    transition: all .3s;
+}
+.button--primary:hover {
+    background-color: rgb(0, 36, 240);
 }
 .best{
     padding: 5px 12px;
@@ -194,18 +203,30 @@
     height: 370px;
     padding: 60px 296px 145px 46px;
     border-radius: 10px;
+    transition: all .3s;
 }
+.product_metka:hover {
+    transform: translateY(-20px);
+} 
 .product_metka_wide {
   max-width: 860px;
   height: 370px;
   border-radius: 10px;
   padding: 35px 395px 60px 46px;
+  transition: all .3s;
+}
+.product_metka_wide:hover {
+    transform: translateY(-20px);
 }
 .product_metka_small {
     max-width: 272px;
     height: 370px;
     margin-top: 30px;
     border-radius: 10px;
+    transition: all .3s;
+}
+.product_metka_small:hover {
+    transform: translateY(-20px);
 }
 .fashion-month {
     background-image: url(../img/fashionmonth.png);
@@ -227,7 +248,13 @@
     border:none;
     border-radius: 20px;
     padding: 10px 45px 10px 20px;
+    transition: all .3s;
 }
+
+.button_view:hover {
+    background-color: rgb(0, 36, 240);
+}
+
 .micro_women{
     display: flex;
     flex-direction: column;
@@ -301,6 +328,10 @@
     margin-top: 70px;
     max-width: 263px;
     height: 370px;
+    transition: all .3s;
+}
+.product_card:hover {
+    transform: translateY(-20px);
 }
 .product_price {
     color:#262D33;
@@ -330,6 +361,11 @@ footer{
     text-decoration: none;
     color:#FFFFFF;
     padding-right: 40px;
+    transition: all .3s;
+}
+.footer_button:hover {
+    color: silver;
+    filter: drop-shadow(0 0 20px #191970);
 }
 .footer_button:last-child {
     padding-right:0;
@@ -382,6 +418,12 @@ footer{
 .footer_bottom{
     display: flex;
     align-items: center;
+}
+.social_img {
+    transition: all .3s; 
+}
+.social_img:hover {
+    transform: scale(1.5);
 }
 .back_to_top .footer_button{
     margin-left: 683px;
